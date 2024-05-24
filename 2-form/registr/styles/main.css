@@ -1,53 +1,124 @@
+body {
+    background: linear-gradient(0deg, #F39494, #F39494),
+    linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+    linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+    max-height: 100vh;
+    margin: 0 auto;
+}
 main {
-    background-color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 582px;
+    height: auto;
+    background-color: rgba(255, 254, 254, 1);
+    margin-top: 72px;
+}
+.forma {
+    display: ruby;
+}
+.forma__header {
+    justify-content: center;
+    display: grid;
+    margin-top: 72px;
 }
 h1 {
     color: black;
     font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+.header__foot {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 26px;
 }
 .fri {
-    font-family:  Open Sans;
-    font-weight: 400;
+    font-family: Open Sans;
     font-size: 18px;
-    line-height: 24.51px;
-}
-a {
-    color: rgba(8, 159, 224, 1);
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
 }
 .log {
-    color:black;
+    width: 394px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 245, 245, 1);
+}
+.log::placeholder {
+    color: rgba(51, 51, 51, 1);
     font-size: 16px;
     font-weight: 600;
+    padding-left: 11px;
 }
-input, label {
-    background: rgba(245, 245, 245, 1);
+.lab__foot {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    gap: 1px;
+    display: flex;
+}
+.foot__inp::placeholder {
+    padding-left: 11px;
+}
+.foot__inp {
+    width: 196px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgba(245, 245, 245, 1);
     font-family: Open Sans;
-    font-size: 16px;
     font-style: italic;
-    font-weight: 400;
-    line-height: 21.79px;
-    text-align: left;   
+    font-size: 16px;
 }
-button {
-    background: rgba(8, 159, 224, 1);
-    color: #fff;
+.inline__mail {
+    margin-bottom: 22px;
 }
-img {
-    color: #0d0c0c;
-    background-color: #0d0c0c;
-}
-.fort {
+.mail__lab {
+    border-radius: 5px;
+    border: 1px;
+    background-color: rgba(245, 245, 245, 1);
     font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.07px;
-    text-align: left;
-    font-style: normal;
+    font-style: italic;
+    width: 398px;
+    height: 44px;
+    font-size: 16px;
 }
-.foots {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.07px;
-    text-align: left;
+.mail__lab::placeholder {
+    padding-left: 11px;
+}
+.bestOF {
+    margin-bottom: 22px;
+}
+.bestOF__btn {
+    background-color: rgba(8, 159, 224, 1);
+    text-align: center;
+    align-items: center;
+    width: 398px;
+    height: 44px;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+}
+.bestOF__img {
+    position: absolute;
+    width: 22px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: -46px;
+    margin-top: 11.5px;
+}
+.footer__inp {
+    margin-top: 22px;
+    margin-bottom: 91px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-right: 29px;
+}
+a {
+    text-decoration: none;
 }
