@@ -1,0 +1,53 @@
+main {
+    background-color: #fff;
+}
+h1 {
+    color: black;
+    font-size: 36px;
+}
+.fri {
+    font-family:  Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+}
+a {
+    color: rgba(8, 159, 224, 1);
+}
+.log {
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+}
+input, label {
+    background: rgba(245, 245, 245, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;   
+}
+button {
+    background: rgba(8, 159, 224, 1);
+    color: #fff;
+}
+img {
+    color: #0d0c0c;
+    background-color: #0d0c0c;
+}
+.fort {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    font-style: normal;
+}
+.foots {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+}

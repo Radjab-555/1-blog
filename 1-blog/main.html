@@ -4,59 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1-Blog</title>
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
     <!-- Загаловка сайта -->
     <header class="header">
         <div class="header__container">
-            <a href="" class="header__blog">B</a>
-            <div class="header__navigation">
-                <nav class="header__menu menu">
-                    <ul class="menu__body">
-                        <li class="menu__item"><a href="">Мой блог</a></li>
-                        <li class="menu__item"><a href="">HTML и CSS</a></li>
-                        <li class="menu__item"><a href="">Frontend</a></li>
-                        <li class="menu__item"><a href="">Backend</a></li>
-                    </ul>
-                </nav>
-                <div class="header__buttons">
-                    <span img src="/images/svg/search.svg"><input type="Поиск" class="header__int"></span>
-                </div>
-            </div>
+            <a href="" class="header__blog"><span class="blogSp">B</span>Мой блог</a>
+            <nav class="header__menu menu">
+                <ul class="menu__body">
+                    <li class="menu__item2"><a class="menu__item-linck" href="">HTML и CSS</a></li>
+                    <li class="menu__item3"><a class="menu__item-linck" href="">Frontend</a></li>
+                    <li class="menu__item4"><a class="menu__item-linck" href="">Backend</a></li>
+                </ul>
+            </nav>
+            <form class="forma__pleis">
+                <img class="serTro" src="./images/svg/search.svg" />
+                <input type="search" placeholder="Поиск" class="header__int ">  
+            </form>
         </div>
     </header>
-    <!--  -->
-    <main class="page">
+    <!-- section header 2 -->
     <section class="hero">
-        <div class="hero__container">
-            <div class="hero__content">
-                <div class="hero__title">
-                    <p class="title__text sert">FRONTEND</p>
-                    <p class="title__text"></p>
-                    <p class="title__text sert">12 мая 2024</p>
-                </div>
-                <div class="hero__header">
-                    <p class="header__title-text">Теория цвета - Как цвет влияет на поведение потребителей</p>
-                </div>
-                <div class="hero__fille">
-                    <div class="fille__img"></div>
-                    <img src="../1-blog/images/Ellipse 1.jpg" alt="" class="img__images">
-                    <p class="fille__text">Наталья Васильева</p>
-                    <p class="fille__text-tit sert">Разработчик</p>
-                </div>
-            </div>
-        </div>
+        <header class="hero__header">           
+               <div class="header__headling">
+                     <span>FRONTEND</span>
+                     <span></span>
+                     <datetime>12 мая 2024</datetime>
+               </div>
+               <h1 class="header__title">Теория цвета - Как цвет влияет на поведение <br>потребителей</h1>
+        </header>
+         <main class="hero__content">
+               <img src="./images/1.png" alt="" class="content__image">
+               <div class="content__author">
+                     <p class="content__name">Наталья Васильева</p>
+                     <p class="content__job">Разработчик</p>
+               </div>
+           </main>
     </section>
+
     <section class="featured">
         <div class="featured__container">
             <div class="featured__images">
-                <img src="../1-blog/images/tel.jpg" alt="">
+                <img class="images__img" src="../1-blog/images/tel.jpg" alt="">
             </div>
             <div class="featured__tetler">
                 <div class="tetler__parag">
-                    <div class="menu__item">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</div>
-                    <div class="tetler__trig">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей. </div>
-                    <div class="tetler__trig">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</div>
+                    <p class="menu__item">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</p>
+                    <p class="tetler__trig">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей. </p>
+                    <p class="tetler__trig">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
                 </div>
             </div>
         </div>
@@ -66,6 +62,5 @@
             <p class="footer__sert sert">Все права защищены (c) 2024</p>
         </div>
     </footer>
-    </main>
 </body>
 </html>
