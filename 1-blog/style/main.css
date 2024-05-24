@@ -4,11 +4,11 @@ body {
                                 rgba(17, 24, 39, 1));
 }
 [class*="__container"] {
-    max-width: 1450px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 0 15px;
-    margin-left: 193px;
-    margin-right: 180px;
+    /* margin-left: 193px;
+    margin-right: 180px; */
 }
 ul {
     list-style: none;
@@ -58,9 +58,12 @@ span.blogSp {
 }
 .menu__body {
     display: flex;
-    gap: 20px;
+    gap: 39px;
     font-size: 16px;
 }
+nav li:first-child {
+    margin-right: 13px;
+ }
 
 .menu__item1 {
     margin: 0 77px 0 -30px;
@@ -82,8 +85,7 @@ span.blogSp {
     color:aqua;
 }
 .forma__pleis {
-    /* display: flex; */
-    margin-left: 331px;
+    margin-left: auto;
 }
 .header__int {
     border-radius: 100px;
@@ -166,7 +168,7 @@ input::placeholder {
 }
 
 .tetler__parag {
-    width: 708px;
+    max-width: 708px;
     line-height: 32px;
 }
 .featured__tetler {
