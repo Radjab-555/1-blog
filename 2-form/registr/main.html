@@ -1,47 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form flex</title>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <main>
-        <form class="forma" action="">
-            <div class="forma__header">
-                <h1>Регистрация</h1>
-                <div class="header__foot">
-                    <p class="fri">Уже есть аккаунт?</p>
-                    <a href="#">Войти</a>
-                </div>
-                    
-            </div>
-                
-            <div class="forma__lab">
-                <div class="lab__header">
-                    <input type="text" placeholder="Моя компания" required class="log">
-                </div> 
-                <div class="lab__foot">
-                    <!-- <label for="name"></label> -->
-                    <input type="text" placeholder="Имя" id="name" name="name" required class="foot__inp">
-                    <input type="text" placeholder="Фамилия" id="name" name="surname" required class="foot__inp">
-                </div>   
-            </div>
-            <div class="inline__mail">
-                <label for="email"></label>
+    <form class="container">
+        <header class="header">
+            <h1 class="header__col">Регистрация</h1>
+            <div class="header__foot">
+                <p class="fri">Уже есть аккаунт?</p>
+                <a href="#" >Войти</a>
+            </div>    
+        </header>    
+        <main class="main__body">
+            <input type="text" placeholder="Моя компания" required class="log">
+            <div class="foot">
+                <input type="text" placeholder="Имя" id="name" name="name" required class="foot__inp">
+                <input type="text" placeholder="Фамилия" id="name" name="surname" required class="foot__inp">
+            </div>  
+            <div class="bustOF">
                 <input type="email" id="email" name="email" placeholder="Ведите E-mail" required class="mail__lab">
             </div>
-            <div class="bestOF">
-                <button class="bestOF__btn">Зарегистрироваться</button>
-                <img class="bestOF__img" src="./images/Arrow 1.svg" alt="">
+            <div>   
+                <button class="btn">Зарегистрироваться</button>
+                <img class="img" src="./img/Arrow 1.svg" alt="">
+            </div>      
+                
+                <div class="footer__inp">
+                    <input type="checkbox" id="scales" name="scales" required checked class="inp__fot/>
+                    <label for="scales" class="inp__fort">Я прочитал и принимаю </label>
+                    <a href="#" class="inp__foots">Условия использования</a>
+                </div>
             </div>
-            <div class="footer__inp">
-                <input type="checkbox" id="scales" name="scales" required checked class="inp__fot/>
-                <label for="scales" class="inp__fort">Я прочитал и принимаю</label>
-                <a href="#" class="inp__foots">Условия использования</a>
-            </div>
-        </form>
-    </main>
+        </main>
+    </form>            
 </body>
 </html>
